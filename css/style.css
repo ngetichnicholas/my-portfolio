@@ -38,7 +38,7 @@
   background: #e29578;
   color: black;
   }
-#banner {
+#banner{
   background-image: url('images/windows2.jpg');
   opacity: 0.9;
   background-repeat: no-repeat;
@@ -47,8 +47,44 @@
   text-align: center;
 }
 #profile {
+  float: left;
+  padding-left: 40px;
+}
+#profile img {
   height: 600px;
   margin-top: 160px;
   width: 600px;
   border-radius: 300px;
+}
+h1 {
+  font-size: 48px;
+  color: #e29578;
+  text-align: center;
+}
+#banner span {
+  font-size: 2em;
+}
+#launcher {
+  padding-top: 400px;
+  float: right;
+  margin-right: 100px;
+  text-align: center;
+  align-items: center;
+}
+#launcher a {
+  background-color: #006D77;
+  border:solid 8px #83c5be;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#launcher a:hover {
+  background-color: white;
+  color: #006D77;
 }
