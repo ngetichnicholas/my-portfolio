@@ -14,3 +14,27 @@
   padding-top: 80px;
   color: white;
 }
+#menu {
+  margin: 0 auto;
+  margin-right: 10px;
+}
+#menu ul {
+  text-align: right;
+}
+#menu ul li {
+  display: inline-block;
+  margin: 20px;
+  text-transform: uppercase;
+}
+#menu>ul>li>a {
+  padding: 18px;
+  margin-right: 0;
+  text-transform: uppercase;
+  display: block;
+  color: #EDF6F9;
+  text-decoration: none;
+}
+#menu>ul>li>a:hover {
+  background: #e29578;
+  color: black;
+  }
