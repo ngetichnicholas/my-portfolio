@@ -38,3 +38,17 @@
   background: #e29578;
   color: black;
   }
+#banner {
+  background-image: url('images/windows2.jpg');
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+}
+#profile {
+  height: 600px;
+  margin-top: 160px;
+  width: 600px;
+  border-radius: 300px;
+}
