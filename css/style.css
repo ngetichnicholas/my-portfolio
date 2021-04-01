@@ -1,0 +1,16 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  padding-left: 15px;
+  padding-top: 50px;
+  background-color: #006D77;
+}
+#logo {
+  position: relative;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  padding-top: 80px;
+  color: white;
+}
