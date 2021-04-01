@@ -38,8 +38,8 @@
   background: #e29578;
   color: black;
   }
-#banner{
-  background-image: url('images/windows2.jpg');
+#banner {
+  background-image: url('/background-images/windows2.jpg');
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
