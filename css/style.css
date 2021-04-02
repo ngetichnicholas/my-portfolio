@@ -198,3 +198,32 @@ table th {
   grid-row-end: 7;
 }
 /* end of gallery-1 images */
+#projects-banner {
+  height: 600px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: auto;
+}
+.dairy,.music,.anita {
+  width: 25%;
+  border-radius: 10px;
+  background-size: cover;
+  font-style: oblique;
+  text-decoration: none;
+  background-color: #83c5be;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1em;
+  color: white;
+}
+.project > p {
+  color: black;
+  text-align: left;
+  padding: 5%;
+}
+.dairy:hover,.music:hover,.anita:hover{
+  background-color: #006D77;
+}
