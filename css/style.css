@@ -1,7 +1,7 @@
 #header {
   display: flex;
   flex-direction: row;
-  height: 130px;
+  height: 80px;
   padding-left: 15px;
   padding-top: 50px;
   background-color: #006D77;
@@ -59,6 +59,7 @@
 h2 {
   color: #83c5be;
   text-align: center;
+  margin-top: 20px;
 }
 #banner span {
   font-size: 2em;
@@ -89,7 +90,7 @@ h2 {
 }
 #footer {
   background-color: #83c5be;
-  height: 120px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,15 +110,17 @@ h2 {
   margin: 0px 30px 0px 0px;
 }
 table {
-  border: 4px solid #006D77;
-  margin: 5%;
-  padding: 5%;
+  border: 10px solid #006D77;
+  border-radius: 6px;
+  margin: 10px 20% 40px 20%;
 }
 table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
-
+table td ul, table td ol {
+  padding-left: 20px;
+}
 table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
@@ -128,7 +131,7 @@ table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: #006D77;
   color: white;
 }
 #gallery-1 {
