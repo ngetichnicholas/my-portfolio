@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 #menu>ul>li>a:hover {
-  background: #e29578;
+  background: #83c5be;
   color: black;
   }
 #banner {
@@ -56,9 +56,8 @@
   width: 600px;
   border-radius: 300px;
 }
-h1 {
-  font-size: 48px;
-  color: #e29578;
+h2 {
+  color: #83c5be;
   text-align: center;
 }
 #banner span {
