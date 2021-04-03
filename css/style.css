@@ -93,7 +93,6 @@ h2 {
   color: #006D77;
 }
 #project-launcher {
-  margin-right: 100px;
   text-align: center;
   align-items: center;
 }
@@ -235,7 +234,7 @@ table th {
 }
 .dairy,.music,.anita {
   width: 25%;
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: left;
   border-radius: 10px;
   background-size: cover;
@@ -251,6 +250,3 @@ table th {
 .dairy div ol {
   padding-left: 20px;
 }
-.dairy:hover,.music:hover,.anita:hover{
-  background-color: #006D77;
-} 
