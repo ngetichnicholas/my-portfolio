@@ -120,6 +120,7 @@ h2 {
 #footer {
   background-color: #83c5be;
   height: 80px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
