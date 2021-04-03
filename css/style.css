@@ -135,7 +135,7 @@ h2 {
 }
 #social ul li {
   list-style: none;
-  margin: 0px 30px 0px 0px;
+  margin-left: 30px;
 }
 table {
   border: 10px solid #006D77;
@@ -262,6 +262,8 @@ table th {
     width: 100%;
   }
   #footer {
+    margin: unset;
+    padding: unset;
     width: 100%;
   }
   #menu{
@@ -270,6 +272,10 @@ table th {
     padding: 0px;
     margin-right: unset;
     margin-left: 0px;
+  }
+  #banner {
+    height: 600px;
+    background-image: unset;
   }
   #menu ul{
     text-align: unset;
@@ -292,19 +298,20 @@ table th {
   }
   #container {
     height: auto;
+    width: 100%;
   }
   #profile {
     align-items: center;
     padding-left: 70px;
   }
   #profile img {
-    height: 300px;
-    margin-top: 160px;
-    width: 300px;
-    border-radius: 150px;
+    height: 250px;
+    margin-top: 100px;
+    width: 250px;
+    border-radius: 125px;
   }
   #launcher {
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: center;
     align-items: center;
     float: left;
@@ -317,5 +324,9 @@ table th {
     margin: 10px 10px 10px 10px;
     table-layout:fixed;
     word-wrap: break-word;
+  }
+  #banner {
+    width: 100%;
+    margin: unset;
   }
 }
