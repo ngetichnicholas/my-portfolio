@@ -56,10 +56,14 @@
   width: 600px;
   border-radius: 300px;
 }
-h2 {
-  color: #83c5be;
+h1 {
+  color: #006D77;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+h2 {
+  color: #0083A3;
+  text-align: left;
 }
 #banner span {
   font-size: 2em;
