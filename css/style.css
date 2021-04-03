@@ -126,7 +126,6 @@ h2 {
   text-align: center;
   align-items: center;
   color: white;
-  width: 100%;
 }
 #social ul {
   display: flex;
@@ -258,35 +257,32 @@ table th {
   #header{
     display: flex;
     flex-direction: column;
-    height: 450px;
-    background-color: #006D77;
-}
-#menu{
+    padding-left: 25px;
+    height: 350px;
     width: 100%;
-    margin: 0 auto;
-    padding: 10px 10px;
-    margin-right: 10px;
- }
- #menu ul{
-    text-align: center;
-}
- #menu ul li{
-     display: block;
-     margin: 20px;
-     text-transform: uppercase;
- }
- #menu>ul>li>a {
-    padding: 18px;
-    margin-right: 0;
-    text-transform: uppercase;
+  }
+  #footer {
+    width: 100%;
+  }
+  #menu{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-right: unset;
+    margin-left: 0px;
+  }
+  #menu ul{
+    text-align: unset;
+  }
+  #menu ul li{
     display: block;
-    color: white;
-    text-decoration: none;
-}
-#menu>ul>li>a:hover {
-    background: #83c5be;
-    color: #006D77;
-    }
+    width: 100%;
+    float: left;
+    margin: 0px;
+  }
+  #logo {
+    margin-left: 15px;
+  }
   #projects-banner {
     padding-top: 40px;
     display: flex;
@@ -299,7 +295,7 @@ table th {
   }
   #profile {
     align-items: center;
-    padding-left: 100px;
+    padding-left: 70px;
   }
   #profile img {
     height: 300px;
@@ -312,6 +308,14 @@ table th {
     text-align: center;
     align-items: center;
     float: left;
-    padding-left: 150px;
+    padding-left: 100px;
+  }
+  table {
+    border: 10px solid #006D77;
+    border-radius: 6px;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    table-layout:fixed;
+    word-wrap: break-word;
   }
 }
