@@ -92,6 +92,28 @@ h2 {
   background-color: white;
   color: #006D77;
 }
+#project-launcher {
+  margin-right: 100px;
+  text-align: center;
+  align-items: center;
+}
+#project-launcher a {
+  background-color: #006D77;
+  border:solid 8px #83c5be;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#project-launcher a:hover {
+  background-color: white;
+  color: #006D77;
+}
 #footer {
   background-color: #83c5be;
   height: 80px;
@@ -205,8 +227,7 @@ table th {
 }
 /* end of gallery-1 images */
 #projects-banner {
-  height: 600px;
-  padding-top: 100px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -214,22 +235,22 @@ table th {
 }
 .dairy,.music,.anita {
   width: 25%;
+  padding-top: 40px;
+  text-align: left;
   border-radius: 10px;
   background-size: cover;
-  font-style: oblique;
   text-decoration: none;
   background-color: #83c5be;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 1em;
-  color: white;
 }
-.project > p {
-  color: black;
-  text-align: left;
-  padding: 5%;
+.dairy div, .music div, .anita div{
+  padding: 10px 10px 10px 10px;
+}
+.dairy div ol {
+  padding-left: 20px;
 }
 .dairy:hover,.music:hover,.anita:hover{
   background-color: #006D77;
-}
+} 
