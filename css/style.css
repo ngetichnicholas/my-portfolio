@@ -43,7 +43,11 @@
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 1080px;
+  text-align: center;
+}
+#container {
+  height: 1080px;
   text-align: center;
 }
 #profile {
@@ -250,7 +254,7 @@ table th {
 .dairy div ol, .music div ol, .anita div ol {
   padding-left: 20px;
 }
-@media screen  and (min-width:300px) and (max-width: 840px) {
+@media screen  and (min-width:0px) and (max-width: 840px) {
   #header{
     display: flex;
     flex-direction: column;
@@ -283,4 +287,31 @@ table th {
     background: #83c5be;
     color: #006D77;
     }
+  #projects-banner {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: auto;
+  }
+  #container {
+    height: auto;
+  }
+  #profile {
+    align-items: center;
+    padding-left: 100px;
+  }
+  #profile img {
+    height: 300px;
+    margin-top: 160px;
+    width: 300px;
+    border-radius: 150px;
+  }
+  #launcher {
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    padding-left: 150px;
+  }
 }
