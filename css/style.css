@@ -247,6 +247,6 @@ table th {
 .dairy div, .music div, .anita div{
   padding: 10px 10px 10px 10px;
 }
-.dairy div ol {
+.dairy div ol, .music div ol, .anita div ol {
   padding-left: 20px;
 }
