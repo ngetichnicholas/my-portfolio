@@ -130,7 +130,7 @@ h2 {
 #social ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }
 #social ul li {
@@ -258,7 +258,8 @@ table th {
     display: flex;
     flex-direction: column;
     padding-left: 25px;
-    height: 350px;
+    height: 300px;
+    padding-top: 5px;
     width: 100%;
   }
   #footer {
@@ -315,11 +316,20 @@ table th {
     text-align: center;
     align-items: center;
     float: left;
-    padding-left: 100px;
+    padding-left: 80px;
+  }
+  #launcher a {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
   }
   table {
-    border: 10px solid #006D77;
-    border-radius: 6px;
     width: 100%;
     margin: 10px 10px 10px 10px;
     table-layout:fixed;
