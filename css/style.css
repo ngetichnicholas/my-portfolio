@@ -292,14 +292,11 @@ table th {
   #logo {
     margin-left: 15px;
   }
-  #projects-banner {
-    padding-top: 40px;
+  #projects-container {
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    overflow: auto;
-  }
-  #container {
     height: auto;
     height: auto;
     margin-bottom: 0px;
