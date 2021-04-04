@@ -3,7 +3,7 @@
 Nicholas Ngetich
 ## Description
 This a personal portfolio website. It contains my personal information, projects that I have done and overview of my personal life experiences.
-![alt text](porfolio-Nicholas-Ngetich.png)
+![alt text](https://github.com/ngetichnick/my-portfolio/blob/master/Portfolio%20-Nicholas-Ngetich%20.png)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
