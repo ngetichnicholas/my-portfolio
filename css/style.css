@@ -1,5 +1,5 @@
 body {
-  font-family:'Times New Roman', Times, serif;font-size: 22px;
+  font-family:'Times New Roman', Times, serif;font-size: 18px;
 }
 #header {
   display: flex;
@@ -240,7 +240,7 @@ table th {
   overflow: auto;
 }
 .dairy,.music,.anita {
-  width: 25%;
+  width: 28%;
   padding-top: 20px;
   text-align: left;
   border-radius: 10px;
