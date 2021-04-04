@@ -48,11 +48,6 @@ body {
   height: 1080px;
   text-align: center;
 }
-#container {
-  height: auto;
-  text-align: center;
-  margin-bottom: 60px;
-}
 #profile {
   float: left;
   padding-left: 40px;
@@ -232,7 +227,10 @@ table th {
   grid-row-end: 7;
 }
 /* end of gallery-1 images */
-#projects-banner {
+#projects-container {
+  height: auto;
+  text-align: center;
+  margin-bottom: 60px;
   padding-top: 40px;
   display: flex;
   flex-direction: row;
